@@ -22,7 +22,13 @@ body {
 .timer-display {
   font-size: 15rem;
   user-select: none;
-  font-family: 'DS-Digital'
+  font-family: 'DS-Digital';
+  cursor: grab;
+  user-select: none;
+}
+
+.timer-display:active {
+  cursor: grabbing;
 }
 
  /* From Uiverse.io by Voxybuns */ 
